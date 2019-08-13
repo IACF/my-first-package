@@ -1,0 +1,21 @@
+{
+	"name": "italo/my-packeges",
+	"description": "Meu primeiro pacote",
+	"type": "library",
+	"require-dev": {
+		"phpunit/phpunit": "^8.4@dev"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "italo.andre2007",
+			"email": "italo.andre2007@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"MyPackage\\":"src/"
+		}
+	}
+}
